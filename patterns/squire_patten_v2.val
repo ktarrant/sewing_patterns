@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina v0.6.1.0 (https://valentinaproject.bitbucket.io/).-->
+    <version>0.7.12</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements>../measurements/individual/Kevin Tarrant.vit</measurements>
+    <increments/>
+    <previewCalculations/>
+    <draw name="Front">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="FSB" showLabel="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="0" basePoint="1" id="2" length="width_waist/2" lineColor="black" mx="0.132292" my="0.264583" name="FMB" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="1" id="3" length="armpit_to_waist_side" lineColor="black" mx="0.132292" my="0.264583" name="FSA" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="3" id="4" length="width_bust/2" lineColor="black" mx="0.132292" my="0.264583" name="FMA" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="4" id="5" lineColor="black" secondPoint="2" typeLine="hair"/>
+            <point angle="AngleLine_FMA_FMB+180" basePoint="4" id="6" length="neck_front_to_waist_f-Line_FMA_FMB+2-neck_circ/6.28" lineColor="black" mx="0.132292" my="0.264583" name="FMN" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="AngleLine_FMA_FMB+180" basePoint="6" id="7" length="neck_circ/6.28" lineColor="black" mx="0.132292" my="0.264583" name="FMT" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="7" id="8" length="neck_circ/6.28" lineColor="black" mx="0.132292" my="0.264583" name="FNT" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="8" id="9" length="width_shoulder/2-neck_circ/6.28" lineColor="black" mx="0.132292" my="0.264583" name="FST" showLabel="true" type="endLine" typeLine="hair"/>
+            <arc aScale="0" angle1="180" angle2="AngleLine_FMA_FMB" center="7" color="black" id="10" penStyle="hair" radius="neck_circ/6.28" type="simple"/>
+            <line firstPoint="3" id="11" lineColor="black" secondPoint="9" typeLine="hair"/>
+            <spline aScale="0" angle1="AngleLine_FSA_FST-30" angle2="AngleLine_FSA_FST+30+180" color="black" id="12" length1="6" length2="6" penStyle="hair" point1="3" point4="9" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <point id="24" idObject="1" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="25" idObject="3" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="26" idObject="12" inUse="true" type="modelingSpline"/>
+            <point id="27" idObject="9" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <arc id="28" idObject="10" inUse="true" type="modeling"/>
+            <point id="29" idObject="4" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="30" idObject="2" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="31" inLayout="true" mx="0" my="0" name="Front" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="24" type="NodePoint"/>
+                    <node idObject="25" type="NodePoint"/>
+                    <node idObject="26" reverse="0" type="NodeSpline"/>
+                    <node idObject="27" type="NodePoint"/>
+                    <node idObject="28" reverse="0" type="NodeArc"/>
+                    <node idObject="29" type="NodePoint"/>
+                    <node idObject="30" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+    <draw name="Back">
+        <calculation>
+            <point id="13" mx="0.132292" my="0.264583" name="BSB" showLabel="true" type="single" x="35.4334" y="1.05833"/>
+            <point angle="90" basePoint="13" id="14" length="armpit_to_waist_side" lineColor="black" mx="0.132292" my="0.264583" name="BSA" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="13" id="15" length="width_bust/2" lineColor="black" mx="0.132292" my="0.264583" name="BMB" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="14" id="16" length="width_bust/2" lineColor="black" mx="0.132292" my="0.264583" name="BMA" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="16" id="17" lineColor="black" secondPoint="15" typeLine="hair"/>
+            <point angle="90" basePoint="16" id="18" length="Line_FMA_FMN+Line_FMN_FMT-4" lineColor="black" mx="0.132292" my="0.264583" name="BMN" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="AngleLine_FSA_FST" basePoint="14" id="19" length="Line_FSA_FST" lineColor="black" mx="0.132292" my="0.264583" name="BST" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="19" id="20" length="Line_FNT_FST" lineColor="black" mx="0.132292" my="0.264583" name="BNT" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="270" angle2="180" color="black" id="22" length1="4" length2="4" penStyle="hair" point1="20" point4="18" type="simpleInteractive"/>
+            <spline aScale="0" angle1="AngleLine_BSA_BST+30" angle2="AngleLine_BSA_BST+180-30" color="black" id="32" length1="6" length2="6" penStyle="hair" point1="14" point4="19" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <point id="33" idObject="13" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="34" idObject="14" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="35" idObject="32" inUse="true" type="modelingSpline"/>
+            <point id="36" idObject="20" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="37" idObject="22" inUse="true" type="modelingSpline"/>
+            <point id="38" idObject="18" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="39" idObject="15" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="40" inLayout="true" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="33" type="NodePoint"/>
+                    <node idObject="34" type="NodePoint"/>
+                    <node idObject="35" reverse="0" type="NodeSpline"/>
+                    <node idObject="36" type="NodePoint"/>
+                    <node idObject="37" reverse="0" type="NodeSpline"/>
+                    <node idObject="38" type="NodePoint"/>
+                    <node idObject="39" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+    <draw name="Sleeve">
+        <calculation>
+            <point id="41" mx="0.132292" my="0.264583" name="SCT" showLabel="true" type="single" x="0.79375" y="62.4688"/>
+            <point angle="20" basePoint="41" id="42" length="Spl_BSA_BST" lineColor="black" mx="0.132292" my="0.264583" name="SCB" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="160" basePoint="41" id="43" length="Spl_FSA_FST" lineColor="black" mx="0.132292" my="0.264583" name="SCF" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="41" id="44" length="arm_shoulder_tip_to_wrist_bent" lineColor="black" mx="0.132292" my="0.264583" name="SWT" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="44" id="45" lineColor="black" mx="0.132292" my="0.264583" name="SRT" p1Line="43" p2Line="42" showLabel="true" type="lineIntersectAxis" typeLine="hair"/>
+            <point firstPoint="42" id="46" mx="0.132292" my="0.264583" name="SWB" secondPoint="44" showLabel="true" type="pointOfIntersection"/>
+            <line firstPoint="44" id="47" lineColor="black" secondPoint="46" typeLine="hair"/>
+            <line firstPoint="42" id="48" lineColor="black" secondPoint="46" typeLine="hair"/>
+            <line firstPoint="45" id="49" lineColor="black" secondPoint="42" typeLine="hair"/>
+            <line firstPoint="43" id="50" lineColor="black" secondPoint="45" typeLine="hair"/>
+            <point firstPoint="43" id="51" mx="0.132292" my="0.264583" name="SWF" secondPoint="44" showLabel="true" type="pointOfIntersection"/>
+            <line firstPoint="43" id="52" lineColor="black" secondPoint="51" typeLine="hair"/>
+            <line firstPoint="51" id="53" lineColor="black" secondPoint="44" typeLine="hair"/>
+        </calculation>
+        <modeling>
+            <point id="54" idObject="41" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="55" idObject="43" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="56" idObject="51" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="57" idObject="44" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="58" idObject="46" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="59" idObject="42" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="60" inLayout="true" mx="84.4609" my="-61.1336" name="Sleeve" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="54" type="NodePoint"/>
+                    <node idObject="55" type="NodePoint"/>
+                    <node idObject="56" type="NodePoint"/>
+                    <node idObject="57" type="NodePoint"/>
+                    <node idObject="58" type="NodePoint"/>
+                    <node idObject="59" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+    <draw name="Neck Band">
+        <calculation>
+            <point id="61" mx="0.132292" my="0.264583" name="NCR" showLabel="true" type="single" x="84.5734" y="1.05833"/>
+            <point angle="0" basePoint="61" id="62" length="6" lineColor="black" mx="0.132292" my="0.264583" name="NTR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="61" id="63" length="Arc_FMT_10*2+Spl_BNT_BMN*2" lineColor="black" mx="0.132292" my="0.264583" name="NCL" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="63" id="70" length="6" lineColor="black" mx="0.132292" my="0.264583" name="NTL" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="62" id="71" lineColor="black" secondPoint="70" typeLine="hair"/>
+        </calculation>
+        <modeling>
+            <point id="66" idObject="61" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="67" idObject="63" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="68" idObject="64" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="69" idObject="62" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="72" idObject="61" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="73" idObject="63" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="74" idObject="70" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="75" idObject="62" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="76" inLayout="true" mx="21.8579" my="0" name="Neck Band" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="72" type="NodePoint"/>
+                    <node idObject="73" type="NodePoint"/>
+                    <node idObject="74" type="NodePoint"/>
+                    <node idObject="75" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+    <draw name="Wrist Band">
+        <calculation>
+            <point id="77" mx="0.132292" my="0.264583" name="WFC" showLabel="true" type="single" x="110.287" y="1.05833"/>
+            <point angle="0" basePoint="77" id="78" length="6" lineColor="black" mx="0.132292" my="0.264583" name="WFT" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="77" id="79" length="hand_circ" lineColor="black" mx="0.132292" my="0.264583" name="WBC" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="79" id="80" length="6" lineColor="black" mx="0.132292" my="0.264583" name="WBT" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="80" id="81" lineColor="black" secondPoint="78" typeLine="hair"/>
+        </calculation>
+        <modeling>
+            <point id="82" idObject="77" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="83" idObject="79" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="84" idObject="80" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="85" idObject="78" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="86" inLayout="true" mx="5.10017" my="0" name="Wrist Band" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="82" type="NodePoint"/>
+                    <node idObject="83" type="NodePoint"/>
+                    <node idObject="84" type="NodePoint"/>
+                    <node idObject="85" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>
