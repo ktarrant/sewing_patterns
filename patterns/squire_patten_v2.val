@@ -22,29 +22,39 @@
             <arc aScale="0" angle1="180" angle2="AngleLine_FMA_FMB" center="7" color="black" id="10" penStyle="hair" radius="neck_circ/6.28" type="simple"/>
             <line firstPoint="3" id="11" lineColor="black" secondPoint="9" typeLine="hair"/>
             <spline aScale="0" angle1="AngleLine_FSA_FST-30" angle2="AngleLine_FSA_FST+30+180" color="black" id="12" length1="6" length2="6" penStyle="hair" point1="3" point4="9" type="simpleInteractive"/>
+            <point angle="270" basePoint="1" id="87" length="10" lineColor="black" mx="0.132292" my="0.264583" name="FSX" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="2" id="88" length="10" lineColor="black" mx="0.132292" my="0.264583" name="FMX" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="87" id="89" lineColor="black" secondPoint="88" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="24" idObject="1" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="25" idObject="3" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="26" idObject="12" inUse="true" type="modelingSpline"/>
-            <point id="27" idObject="9" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <arc id="28" idObject="10" inUse="true" type="modeling"/>
-            <point id="29" idObject="4" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="30" idObject="2" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="24" idObject="1" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="25" idObject="3" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="26" idObject="12" inUse="false" type="modelingSpline"/>
+            <point id="27" idObject="9" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <arc id="28" idObject="10" inUse="false" type="modeling"/>
+            <point id="29" idObject="4" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="30" idObject="2" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="93" idObject="87" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="94" idObject="1" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="95" idObject="3" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="96" idObject="12" inUse="true" type="modelingSpline"/>
+            <arc id="97" idObject="10" inUse="true" type="modeling"/>
+            <point id="98" idObject="2" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="99" idObject="88" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="31" inLayout="true" mx="0" my="0" name="Front" seamAllowance="false" united="false" version="2" width="0.635">
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="100" inLayout="true" mx="0" my="0" name="Front" seamAllowance="false" united="false" version="2" width="0.635">
                 <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
-                    <node idObject="24" type="NodePoint"/>
-                    <node idObject="25" type="NodePoint"/>
-                    <node idObject="26" reverse="0" type="NodeSpline"/>
-                    <node idObject="27" type="NodePoint"/>
-                    <node idObject="28" reverse="0" type="NodeArc"/>
-                    <node idObject="29" type="NodePoint"/>
-                    <node idObject="30" type="NodePoint"/>
+                    <node idObject="93" type="NodePoint"/>
+                    <node idObject="94" type="NodePoint"/>
+                    <node idObject="95" type="NodePoint"/>
+                    <node idObject="96" reverse="0" type="NodeSpline"/>
+                    <node idObject="97" reverse="0" type="NodeArc"/>
+                    <node idObject="98" type="NodePoint"/>
+                    <node idObject="99" type="NodePoint"/>
                 </nodes>
             </detail>
         </details>
@@ -62,29 +72,43 @@
             <point angle="0" basePoint="19" id="20" length="Line_FNT_FST" lineColor="black" mx="0.132292" my="0.264583" name="BNT" showLabel="true" type="endLine" typeLine="hair"/>
             <spline aScale="0" angle1="270" angle2="180" color="black" id="22" length1="4" length2="4" penStyle="hair" point1="20" point4="18" type="simpleInteractive"/>
             <spline aScale="0" angle1="AngleLine_BSA_BST+30" angle2="AngleLine_BSA_BST+180-30" color="black" id="32" length1="6" length2="6" penStyle="hair" point1="14" point4="19" type="simpleInteractive"/>
+            <point angle="270" basePoint="13" id="90" length="10" lineColor="black" mx="0.132292" my="0.264583" name="BSX" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="15" id="91" length="10" lineColor="black" mx="0.132292" my="0.264583" name="BMX" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="90" id="92" lineColor="black" secondPoint="91" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="33" idObject="13" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="34" idObject="14" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="35" idObject="32" inUse="true" type="modelingSpline"/>
-            <point id="36" idObject="20" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="37" idObject="22" inUse="true" type="modelingSpline"/>
-            <point id="38" idObject="18" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="39" idObject="15" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="33" idObject="13" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="34" idObject="14" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="35" idObject="32" inUse="false" type="modelingSpline"/>
+            <point id="36" idObject="20" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="37" idObject="22" inUse="false" type="modelingSpline"/>
+            <point id="38" idObject="18" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="39" idObject="15" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="101" idObject="90" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="102" idObject="13" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="103" idObject="14" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="104" idObject="32" inUse="true" type="modelingSpline"/>
+            <point id="105" idObject="20" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="106" idObject="22" inUse="true" type="modelingSpline"/>
+            <point id="107" idObject="18" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="108" idObject="15" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="109" idObject="91" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="40" inLayout="true" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="0.635">
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="110" inLayout="true" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="0.635">
                 <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
-                    <node idObject="33" type="NodePoint"/>
-                    <node idObject="34" type="NodePoint"/>
-                    <node idObject="35" reverse="0" type="NodeSpline"/>
-                    <node idObject="36" type="NodePoint"/>
-                    <node idObject="37" reverse="0" type="NodeSpline"/>
-                    <node idObject="38" type="NodePoint"/>
-                    <node idObject="39" type="NodePoint"/>
+                    <node idObject="101" type="NodePoint"/>
+                    <node idObject="102" type="NodePoint"/>
+                    <node idObject="103" type="NodePoint"/>
+                    <node idObject="104" reverse="0" type="NodeSpline"/>
+                    <node idObject="105" type="NodePoint"/>
+                    <node idObject="106" reverse="0" type="NodeSpline"/>
+                    <node idObject="107" type="NodePoint"/>
+                    <node idObject="108" type="NodePoint"/>
+                    <node idObject="109" type="NodePoint"/>
                 </nodes>
             </detail>
         </details>
@@ -107,15 +131,15 @@
             <line firstPoint="51" id="53" lineColor="black" secondPoint="44" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="54" idObject="41" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="55" idObject="43" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="56" idObject="51" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="57" idObject="44" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="58" idObject="46" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="59" idObject="42" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="54" idObject="41" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="55" idObject="43" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="56" idObject="51" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="57" idObject="44" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="58" idObject="46" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="59" idObject="42" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="60" inLayout="true" mx="84.4609" my="-61.1336" name="Sleeve" seamAllowance="false" united="false" version="2" width="0.635">
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="60" inLayout="true" mx="85.0752" my="-54.9906" name="Sleeve" seamAllowance="false" united="false" version="2" width="0.635">
                 <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
@@ -140,17 +164,13 @@
             <line firstPoint="62" id="71" lineColor="black" secondPoint="70" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="66" idObject="61" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="67" idObject="63" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="68" idObject="64" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="69" idObject="62" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="72" idObject="61" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="73" idObject="63" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="74" idObject="70" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="75" idObject="62" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="72" idObject="61" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="73" idObject="63" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="74" idObject="70" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="75" idObject="62" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="76" inLayout="true" mx="21.8579" my="0" name="Neck Band" seamAllowance="false" united="false" version="2" width="0.635">
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="76" inLayout="true" mx="22.5951" my="5.52876" name="Neck Band" seamAllowance="false" united="false" version="2" width="0.635">
                 <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
@@ -173,13 +193,13 @@
             <line firstPoint="80" id="81" lineColor="black" secondPoint="78" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="82" idObject="77" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="83" idObject="79" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="84" idObject="80" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="85" idObject="78" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="82" idObject="77" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="83" idObject="79" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="84" idObject="80" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="85" idObject="78" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="86" inLayout="true" mx="5.10017" my="0" name="Wrist Band" seamAllowance="false" united="false" version="2" width="0.635">
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="86" inLayout="true" mx="5.83734" my="5.52876" name="Wrist Band" seamAllowance="false" united="false" version="2" width="0.635">
                 <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
