@@ -14,6 +14,9 @@
     </personal>
     <body-measurements>
         <m name="width_shoulder" value="52"/>
+        <m name="head_length" value="25"/>
+        <m name="head_width" value="18"/>
+        <m name="head_circ" value="60"/>
         <m name="width_bust" value="58"/>
         <m name="width_waist" value="63"/>
         <m name="neck_circ" value="44"/>

@@ -25,22 +25,17 @@
             <point angle="270" basePoint="1" id="87" length="10" lineColor="black" mx="0.132292" my="0.264583" name="FSX" showLabel="true" type="endLine" typeLine="hair"/>
             <point angle="270" basePoint="2" id="88" length="10" lineColor="black" mx="0.132292" my="0.264583" name="FMX" showLabel="true" type="endLine" typeLine="hair"/>
             <line firstPoint="87" id="89" lineColor="black" secondPoint="88" typeLine="hair"/>
+            <point firstPoint="9" id="111" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="A1" secondPoint="3" showLabel="true" type="alongLine" typeLine="none"/>
+            <point angle="AngleLine_FSA_FST-90" basePoint="111" id="112" length="2.20028" lineColor="black" mx="0.132292" my="0.264583" name="A2" showLabel="true" type="endLine" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="24" idObject="1" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="25" idObject="3" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="26" idObject="12" inUse="false" type="modelingSpline"/>
-            <point id="27" idObject="9" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <arc id="28" idObject="10" inUse="false" type="modeling"/>
-            <point id="29" idObject="4" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="30" idObject="2" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="93" idObject="87" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="94" idObject="1" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="95" idObject="3" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="96" idObject="12" inUse="true" type="modelingSpline"/>
-            <arc id="97" idObject="10" inUse="true" type="modeling"/>
-            <point id="98" idObject="2" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="99" idObject="88" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="93" idObject="87" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="94" idObject="1" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="95" idObject="3" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="96" idObject="12" inUse="false" type="modelingSpline"/>
+            <arc id="97" idObject="10" inUse="false" type="modeling"/>
+            <point id="98" idObject="2" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="99" idObject="88" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
             <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="100" inLayout="true" mx="0" my="0" name="Front" seamAllowance="false" united="false" version="2" width="0.635">
@@ -77,22 +72,15 @@
             <line firstPoint="90" id="92" lineColor="black" secondPoint="91" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="33" idObject="13" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="34" idObject="14" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="35" idObject="32" inUse="false" type="modelingSpline"/>
-            <point id="36" idObject="20" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="37" idObject="22" inUse="false" type="modelingSpline"/>
-            <point id="38" idObject="18" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="39" idObject="15" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="101" idObject="90" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="102" idObject="13" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="103" idObject="14" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="104" idObject="32" inUse="true" type="modelingSpline"/>
-            <point id="105" idObject="20" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="106" idObject="22" inUse="true" type="modelingSpline"/>
-            <point id="107" idObject="18" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="108" idObject="15" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="109" idObject="91" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="101" idObject="90" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="102" idObject="13" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="103" idObject="14" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="104" idObject="32" inUse="false" type="modelingSpline"/>
+            <point id="105" idObject="20" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="106" idObject="22" inUse="false" type="modelingSpline"/>
+            <point id="107" idObject="18" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="108" idObject="15" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="109" idObject="91" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
         </modeling>
         <details>
             <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="110" inLayout="true" mx="0" my="0" name="Back" seamAllowance="false" united="false" version="2" width="0.635">

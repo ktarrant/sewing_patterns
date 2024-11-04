@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina v0.6.1.0 (https://valentinaproject.bitbucket.io/).-->
+    <version>0.7.12</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements>../measurements/individual/Kevin Tarrant.vit</measurements>
+    <increments/>
+    <previewCalculations/>
+    <draw name="Top">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="TL" showLabel="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="0" basePoint="1" id="2" length="30" lineColor="black" mx="0.132292" my="0.264583" name="TR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point firstPoint="1" id="7" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="TM" secondPoint="2" showLabel="true" type="alongLine" typeLine="none"/>
+            <arc aScale="0" angle1="0" angle2="0" center="7" color="black" id="8" penStyle="hair" radius="Line_TM_TR" type="simple"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+    <draw name="Crown">
+        <calculation>
+            <point id="4" mx="0.132292" my="0.264583" name="COL" showLabel="true" type="single" x="0.79375" y="31.0985"/>
+            <point angle="0" basePoint="4" id="5" length="head_circ/3.14" lineColor="black" mx="0.132292" my="0.264583" name="COR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="5" id="6" length="(Line_TL_TR-Line_COL_COR)/2" lineColor="black" mx="0.132292" my="0.264583" name="CR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="4" id="9" length="Line_COR_CR" lineColor="black" mx="0.132292" my="0.264583" name="CL" showLabel="true" type="endLine" typeLine="hair"/>
+            <point firstPoint="4" id="10" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="CM" secondPoint="5" showLabel="true" type="alongLine" typeLine="none"/>
+            <arc aScale="0" angle1="0" angle2="0" center="10" color="black" id="11" penStyle="hair" radius="Line_CM_COR" type="simple"/>
+            <arc aScale="0" angle1="0" angle2="0" center="10" color="black" id="12" penStyle="hair" radius="Line_TM_TR" type="simple"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+    <draw name="Brim">
+        <calculation>
+            <point id="13" mx="0.132292" my="0.264583" name="BL" showLabel="true" type="single" x="37.0156" y="1.05833"/>
+            <point angle="0" basePoint="13" id="14" length="28" lineColor="black" mx="0.132292" my="0.264583" name="BR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point firstPoint="13" id="15" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="BM" secondPoint="14" showLabel="true" type="alongLine" typeLine="none"/>
+            <point angle="0" basePoint="15" id="16" length="Line_CM_COR" lineColor="black" mx="0.132292" my="0.264583" name="BOR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="15" id="17" length="Line_BM_BOR" lineColor="black" mx="0.132292" my="0.264583" name="BOL" showLabel="true" type="endLine" typeLine="hair"/>
+            <arc aScale="0" angle1="0" angle2="0" center="15" color="black" id="18" penStyle="hair" radius="Line_BM_BOR" type="simple"/>
+            <arc aScale="0" angle1="0" angle2="0" center="15" color="black" id="19" penStyle="hair" radius="Line_BM_BR" type="simple"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>
