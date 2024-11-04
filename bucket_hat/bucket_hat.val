@@ -21,10 +21,10 @@
             <spline aScale="0" angle1="180" angle2="0" color="black" id="9" length1="Line_TM_TL" length2="0" penStyle="hair" point1="1" point4="5" type="simpleInteractive"/>
         </calculation>
         <modeling>
-            <spline id="10" idObject="7" inUse="true" type="modelingSpline"/>
-            <spline id="11" idObject="6" inUse="true" type="modelingSpline"/>
-            <spline id="12" idObject="8" inUse="true" type="modelingSpline"/>
-            <spline id="13" idObject="9" inUse="true" type="modelingSpline"/>
+            <spline id="10" idObject="7" inUse="false" type="modelingSpline"/>
+            <spline id="11" idObject="6" inUse="false" type="modelingSpline"/>
+            <spline id="12" idObject="8" inUse="false" type="modelingSpline"/>
+            <spline id="13" idObject="9" inUse="false" type="modelingSpline"/>
         </modeling>
         <details>
             <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="14" inLayout="true" mx="0" my="0" name="Top" seamAllowance="false" united="false" version="2" width="0.635">
@@ -56,25 +56,29 @@
             <spline aScale="0" angle1="0" angle2="0" color="black" id="25" length1="Line_BIM_BIR+Line_BIR_BOR" length2="0" penStyle="hair" point1="22" point4="21" type="simpleInteractive"/>
         </calculation>
         <modeling>
-            <point id="26" idObject="18" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <point id="27" idObject="23" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <spline id="28" idObject="24" inUse="true" type="modelingSpline"/>
-            <spline id="29" idObject="25" inUse="true" type="modelingSpline"/>
-            <spline id="30" idObject="19" inUse="true" type="modelingSpline"/>
-            <spline id="31" idObject="20" inUse="true" type="modelingSpline"/>
+            <point id="26" idObject="18" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="27" idObject="23" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="28" idObject="24" inUse="false" type="modelingSpline"/>
+            <spline id="29" idObject="25" inUse="false" type="modelingSpline"/>
+            <spline id="30" idObject="19" inUse="false" type="modelingSpline"/>
+            <spline id="31" idObject="20" inUse="false" type="modelingSpline"/>
+            <point id="49" idObject="23" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="50" idObject="24" inUse="true" type="modelingSpline"/>
+            <spline id="51" idObject="25" inUse="true" type="modelingSpline"/>
+            <spline id="52" idObject="19" inUse="true" type="modelingSpline"/>
+            <spline id="53" idObject="20" inUse="true" type="modelingSpline"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="32" inLayout="true" mx="0" my="0" name="Brim" seamAllowance="false" united="false" version="2" width="0.635">
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="54" inLayout="true" mx="0" my="0" name="Brim" seamAllowance="false" united="false" version="2" width="0.635">
                 <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
-                    <node idObject="26" type="NodePoint"/>
-                    <node idObject="27" type="NodePoint"/>
-                    <node idObject="28" reverse="0" type="NodeSpline"/>
-                    <node idObject="29" reverse="0" type="NodeSpline"/>
-                    <node idObject="30" reverse="0" type="NodeSpline"/>
-                    <node idObject="31" reverse="0" type="NodeSpline"/>
+                    <node idObject="49" type="NodePoint"/>
+                    <node idObject="50" reverse="0" type="NodeSpline"/>
+                    <node idObject="51" reverse="0" type="NodeSpline"/>
+                    <node idObject="52" reverse="0" type="NodeSpline"/>
+                    <node idObject="53" reverse="0" type="NodeSpline"/>
                 </nodes>
             </detail>
         </details>
@@ -92,11 +96,11 @@
             <line firstPoint="41" id="42" lineColor="black" secondPoint="38" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="43" idObject="38" inUse="true" mx="-0.683806" my="0.717971" showLabel="true" type="modeling"/>
-            <point id="44" idObject="41" inUse="true" mx="-1.47745" my="0.801165" showLabel="true" type="modeling"/>
-            <arc id="45" idObject="40" inUse="true" type="modeling"/>
-            <point id="46" idObject="34" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
-            <arc id="47" idObject="36" inUse="true" type="modeling"/>
+            <point id="43" idObject="38" inUse="false" mx="-0.683806" my="0.717971" showLabel="true" type="modeling"/>
+            <point id="44" idObject="41" inUse="false" mx="-1.47745" my="0.801165" showLabel="true" type="modeling"/>
+            <arc id="45" idObject="40" inUse="false" type="modeling"/>
+            <point id="46" idObject="34" inUse="false" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <arc id="47" idObject="36" inUse="false" type="modeling"/>
         </modeling>
         <details>
             <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="48" inLayout="true" mx="13.4253" my="-5.59389" name="Head Band" seamAllowance="false" united="false" version="2" width="0.635">
