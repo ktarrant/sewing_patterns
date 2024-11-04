@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina v0.6.1.0 (https://valentinaproject.bitbucket.io/).-->
+    <version>0.7.12</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements>../measurements/individual/Kevin Tarrant.vit</measurements>
+    <increments/>
+    <previewCalculations/>
+    <draw name="top">
+        <calculation>
+            <point id="1" mx="0.132292" my="0.264583" name="TB" showLabel="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="90" basePoint="1" id="2" length="18" lineColor="black" mx="0.132292" my="0.264583" name="TF" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <point firstPoint="2" id="3" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="TM" secondPoint="1" showLabel="true" type="alongLine" typeLine="none"/>
+            <point angle="0" basePoint="3" id="4" length="8" lineColor="black" mx="0.132292" my="0.264583" name="TR" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <point angle="180" basePoint="3" id="5" length="8" lineColor="black" mx="0.132292" my="0.264583" name="TL" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <spline aScale="0" angle1="0" angle2="0" color="black" id="6" length1="Line_TM_TR" length2="0" penStyle="hair" point1="2" point4="4" type="simpleInteractive"/>
+            <spline aScale="0" angle1="0" angle2="180" color="black" id="7" length1="0" length2="Line_TM_TL" penStyle="hair" point1="5" point4="2" type="simpleInteractive"/>
+            <spline aScale="0" angle1="0" angle2="0" color="black" id="8" length1="0" length2="Line_TM_TR" penStyle="hair" point1="4" point4="1" type="simpleInteractive"/>
+            <spline aScale="0" angle1="180" angle2="0" color="black" id="9" length1="Line_TM_TL" length2="0" penStyle="hair" point1="1" point4="5" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <spline id="10" idObject="7" inUse="true" type="modelingSpline"/>
+            <spline id="11" idObject="6" inUse="true" type="modelingSpline"/>
+            <spline id="12" idObject="8" inUse="true" type="modelingSpline"/>
+            <spline id="13" idObject="9" inUse="true" type="modelingSpline"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="14" inLayout="true" mx="0" my="0" name="Top" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="10" reverse="0" type="NodeSpline"/>
+                    <node idObject="11" reverse="0" type="NodeSpline"/>
+                    <node idObject="12" reverse="0" type="NodeSpline"/>
+                    <node idObject="13" reverse="0" type="NodeSpline"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+    <draw name="brim">
+        <calculation>
+            <point id="15" mx="0.132292" my="0.264583" name="BIM" showLabel="true" type="single" x="25.44" y="1.05833"/>
+            <point angle="90" basePoint="15" id="16" length="10.5" lineColor="black" mx="0.132292" my="0.264583" name="BIF" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <point angle="0" basePoint="15" id="17" length="8.75" lineColor="black" mx="0.132292" my="0.264583" name="BIR" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <point angle="180" basePoint="15" id="18" length="8.75" lineColor="black" mx="0.132292" my="0.264583" name="BIL" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <spline aScale="0" angle1="0" angle2="0" color="black" id="19" length1="0" length2="Line_BIM_BIR" penStyle="hair" point1="17" point4="16" type="simpleInteractive"/>
+            <spline aScale="0" angle1="180" angle2="0" color="black" id="20" length1="Line_BIM_BIL" length2="0" penStyle="hair" point1="16" point4="18" type="simpleInteractive"/>
+            <point angle="0" basePoint="17" id="21" length="6.5" lineColor="black" mx="0.132292" my="0.264583" name="BOR" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="16" id="22" length="6.5" lineColor="black" mx="0.132292" my="0.264583" name="BOF" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="18" id="23" length="6.5" lineColor="black" mx="0.132292" my="0.264583" name="BOL" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="0" angle2="180" color="black" id="24" length1="0" length2="Line_BIM_BIL+Line_BIL_BOL" penStyle="hair" point1="23" point4="22" type="simpleInteractive"/>
+            <spline aScale="0" angle1="0" angle2="0" color="black" id="25" length1="Line_BIM_BIR+Line_BIR_BOR" length2="0" penStyle="hair" point1="22" point4="21" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <point id="26" idObject="18" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <point id="27" idObject="23" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <spline id="28" idObject="24" inUse="true" type="modelingSpline"/>
+            <spline id="29" idObject="25" inUse="true" type="modelingSpline"/>
+            <spline id="30" idObject="19" inUse="true" type="modelingSpline"/>
+            <spline id="31" idObject="20" inUse="true" type="modelingSpline"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="32" inLayout="true" mx="0" my="0" name="Brim" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="26" type="NodePoint"/>
+                    <node idObject="27" type="NodePoint"/>
+                    <node idObject="28" reverse="0" type="NodeSpline"/>
+                    <node idObject="29" reverse="0" type="NodeSpline"/>
+                    <node idObject="30" reverse="0" type="NodeSpline"/>
+                    <node idObject="31" reverse="0" type="NodeSpline"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+    <draw name="head_band">
+        <calculation>
+            <point id="33" mx="0.132292" my="0.264583" name="HBM" showLabel="true" type="single" x="10" y="10.5748"/>
+            <point angle="270" basePoint="33" id="34" length="8" lineColor="black" mx="0.132292" my="0.264583" name="HTM" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="34" id="35" length="Line_TF_TM*6" lineColor="black" mx="0.132292" my="0.264583" name="HR" showLabel="true" type="endLine" typeLine="dashLine"/>
+            <arc aScale="0.5" angle1="90" center="35" color="black" id="36" length="Spl_TR_TB*2" penStyle="hair" radius="Line_HTM_HR" type="arcWithLength"/>
+            <point angle="Angle2Arc_HR_36" basePoint="35" id="38" length="Line_HTM_HR" lineColor="black" mx="-0.683806" my="0.717971" name="HTF" showLabel="true" type="endLine" typeLine="hair"/>
+            <arc aScale="0.5" angle1="118.296" center="35" color="black" id="40" length="-Spl_BIF_BIL*2" penStyle="hair" radius="Line_HBM_HTM+Line_HTM_HR" type="arcWithLength"/>
+            <point angle="118.296" basePoint="35" id="41" length="Line_HBM_HTM+Line_HTM_HR" lineColor="black" mx="-1.47745" my="0.801165" name="HBF" showLabel="true" type="endLine" typeLine="none"/>
+            <line firstPoint="41" id="42" lineColor="black" secondPoint="38" typeLine="hair"/>
+        </calculation>
+        <modeling>
+            <point id="43" idObject="38" inUse="true" mx="-0.683806" my="0.717971" showLabel="true" type="modeling"/>
+            <point id="44" idObject="41" inUse="true" mx="-1.47745" my="0.801165" showLabel="true" type="modeling"/>
+            <arc id="45" idObject="40" inUse="true" type="modeling"/>
+            <point id="46" idObject="34" inUse="true" mx="0.132292" my="0.264583" showLabel="true" type="modeling"/>
+            <arc id="47" idObject="36" inUse="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="48" inLayout="true" mx="13.4253" my="-5.59389" name="Head Band" seamAllowance="false" united="false" version="2" width="0.635">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="43" type="NodePoint"/>
+                    <node idObject="44" type="NodePoint"/>
+                    <node idObject="45" reverse="0" type="NodeArc"/>
+                    <node idObject="46" type="NodePoint"/>
+                    <node idObject="47" reverse="0" type="NodeArc"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>
